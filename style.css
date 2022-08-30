@@ -108,6 +108,13 @@ a {
     margin-top: 10px;
   }
 
+  .imagestext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+
   @media (max-width: 800px) {
     .firstpart,
     .content {
