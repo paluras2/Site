@@ -2,7 +2,7 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif sans-serif;
     display :flex;
     margin: 0px;
-    overflow:hidden;
+    overflow:auto;
     flex-direction: column;
 
 
@@ -52,6 +52,7 @@ body {
     width: 300px;
     height: auto;
     justify-content: space-evenly;
+
 }
 
 .smalltext{
