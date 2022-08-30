@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     flex-wrap: 0;
     width: 300px;
-    height: 300px;
+    height: auto;
     justify-content: space-evenly;
 }
 
@@ -63,8 +63,11 @@ body {
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    margin-right: 
+    margin-top: 20px;
+    
 }
+
+
 
 
 ul {
@@ -72,6 +75,10 @@ ul {
     gap: 16px;
     padding: 10px;
     
+}
+
+li{
+    list-style: none;
 }
 
 a {
@@ -92,5 +99,11 @@ a {
     border-radius: 10px;
   }
 
+  @media (max-width: 800px) {
+    .firstpart,
+    .content {
+      flex-direction: column;
+    }
+  }
 
 
