@@ -4,6 +4,7 @@ body {
     margin: 0px;
     overflow:auto;
     flex-direction: column;
+    text-align: center;
 
 
 
@@ -12,6 +13,10 @@ body {
 .firstpart {
     background-color: #1f2937;
     color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -19,20 +24,17 @@ body {
     
     display: flex;
     justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
 
 
 }
 
 .Header-logo {
-    color: rgba(216, 209, 209, 0.884);
-    
-    justify-items: center;
-    align-items: center;
-    display: flex;
-    
-
-    
-
+    color: rgb(255, 255, 255);
+    background-color: #7b8592a8;
+    border-radius: 10px;
+    padding: 0px 20px ;
 }
 
 .content {
@@ -73,8 +75,12 @@ body {
 
 ul {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     padding: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+
+
     
 }
 
@@ -96,14 +102,17 @@ a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    align-self: start;
+    align-self: center;
     border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
   }
 
   @media (max-width: 800px) {
     .firstpart,
     .content {
       flex-direction: column;
+      align-items: center;
     }
   }
 
