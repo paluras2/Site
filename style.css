@@ -110,10 +110,26 @@ a {
 
   .imagestext {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 40px;
   }
-  
+
+  .firstimage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    background-color: rgba(85, 38, 38, 0.377);
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .text {
+    padding: 10px;
+    text-align: center;
+  }
+
 
   @media (max-width: 800px) {
     .firstpart,
