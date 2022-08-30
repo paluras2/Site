@@ -152,14 +152,16 @@ a {
     display: flex;
     background-color: #3882f6;
     color: white;
-    margin: 40px 300px;
+    flex-wrap: wrap;
     border-radius: 10px;
     justify-content: space-around;
+    
   }
 
   .textwindow {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
   }
   .firsttext {
