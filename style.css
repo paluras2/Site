@@ -155,14 +155,11 @@ a {
     margin: 40px 300px;
     border-radius: 10px;
     justify-content: space-around;
-    flex-wrap: wrap;
   }
 
   .textwindow {
     display: flex;
     flex-direction: column;
-    overflow: auto;
-    flex-wrap: wrap;
 
   }
   .firsttext {
